@@ -39,8 +39,8 @@
 * [onlyData](#onlydata-method)
 * [ExceptData](#exceptdata-method)
 * [GetForm](#getForm)
+* [Get Message and Class](#get-message-and-class)
 * [Collection](#collection)
-* [Get Error Message](#get-error-message)
 * [Collection Methods](#collection-methods)
 * [Form Request](#form-request)
 * [toObject](#toobject)
@@ -60,7 +60,7 @@ Prior to installing `ultimate-uploader` get the [Composer](https://getcomposer.o
 **Step 1** — update your `composer.json`:
 ```composer.json
 "require": {
-    "peterson/validator": "^3.3.6" 
+    "peterson/validator": "^3.3.7" 
 }
 ```
 
@@ -143,12 +143,19 @@ $form->post()->submit([
 | request     |  String `POST\|GET\|ALL` Default `POST` |
 | error_type  |  Boolean `true\|false` Default `false`  |
 | csrf_token  |  Boolean `true\|false` Default `true`   |
+| class       |  Array `error\|success` error class type to be returned on both success and failure   |
+
+
 
 ```
 config_form([
     'request'       => 'POST',
     'error_type'    => true,
     'csrf_token'    => true,
+    'class'         => [
+        'error'     => 'form__error',
+        'success'   => 'form__success'
+    ]
 ]); 
 ```
 

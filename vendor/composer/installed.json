@@ -2,23 +2,23 @@
     "packages": [
         {
             "name": "peterson/validator",
-            "version": "3.3.6",
-            "version_normalized": "3.3.6.0",
+            "version": "3.3.7",
+            "version_normalized": "3.3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tamedevelopers/validator.git",
-                "reference": "caafc72290fa5fddc2acc9489f33e1b170f00b74"
+                "reference": "945c68f562f5a4ff189d0a3c830bc17127e7c21c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tamedevelopers/validator/zipball/caafc72290fa5fddc2acc9489f33e1b170f00b74",
-                "reference": "caafc72290fa5fddc2acc9489f33e1b170f00b74",
+                "url": "https://api.github.com/repos/tamedevelopers/validator/zipball/945c68f562f5a4ff189d0a3c830bc17127e7c21c",
+                "reference": "945c68f562f5a4ff189d0a3c830bc17127e7c21c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
-            "time": "2023-09-10T01:55:39+00:00",
+            "time": "2023-09-15T22:00:45+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -59,7 +59,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tamedevelopers/validator/issues",
-                "source": "https://github.com/tamedevelopers/validator/tree/3.3.6"
+                "source": "https://github.com/tamedevelopers/validator/tree/3.3.7"
             },
             "install-path": "../peterson/validator"
         }
