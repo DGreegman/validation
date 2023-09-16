@@ -1,0 +1,69 @@
+{
+    "packages": [
+        {
+            "name": "peterson/validator",
+            "version": "3.3.6",
+            "version_normalized": "3.3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tamedevelopers/validator.git",
+                "reference": "caafc72290fa5fddc2acc9489f33e1b170f00b74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tamedevelopers/validator/zipball/caafc72290fa5fddc2acc9489f33e1b170f00b74",
+                "reference": "caafc72290fa5fddc2acc9489f33e1b170f00b74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "time": "2023-09-10T01:55:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "UltimateValidator\\": "src/"
+                },
+                "classmap": [
+                    "src/*"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fredrick Peterson",
+                    "email": "fredi.peterson2000@gmail.com"
+                },
+                {
+                    "name": "Tame Developers",
+                    "email": "tamedevelopers@gmail.com"
+                }
+            ],
+            "description": "PHP Form Validator is a small no-depencies library for PHP codes.",
+            "homepage": "https://github.com/tamedevelopers/validator",
+            "keywords": [
+                "Forms",
+                "easy validation",
+                "form",
+                "form validator",
+                "php",
+                "php form validator",
+                "php forms"
+            ],
+            "support": {
+                "issues": "https://github.com/tamedevelopers/validator/issues",
+                "source": "https://github.com/tamedevelopers/validator/tree/3.3.6"
+            },
+            "install-path": "../peterson/validator"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "peterson/validator": "^3.3" 
+    }
+}
